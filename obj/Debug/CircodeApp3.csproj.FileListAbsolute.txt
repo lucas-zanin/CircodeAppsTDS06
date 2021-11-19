@@ -1,0 +1,11 @@
+C:\Programas\CircodeApp3\bin\Debug\CircodeApp3.exe.config
+C:\Programas\CircodeApp3\bin\Debug\CircodeApp3.exe
+C:\Programas\CircodeApp3\bin\Debug\CircodeApp3.pdb
+C:\Programas\CircodeApp3\obj\Debug\CircodeApp3.csproj.AssemblyReference.cache
+C:\Programas\CircodeApp3\obj\Debug\CircodeApp3.FrmPrincipal.resources
+C:\Programas\CircodeApp3\obj\Debug\CircodeApp3.Properties.Resources.resources
+C:\Programas\CircodeApp3\obj\Debug\CircodeApp3.csproj.GenerateResource.cache
+C:\Programas\CircodeApp3\obj\Debug\CircodeApp3.csproj.CoreCompileInputs.cache
+C:\Programas\CircodeApp3\obj\Debug\CircodeApp3.exe
+C:\Programas\CircodeApp3\obj\Debug\CircodeApp3.pdb
+C:\Programas\CircodeApp3\obj\Debug\CircodeApp3.FrmBuscaCEP.resources
