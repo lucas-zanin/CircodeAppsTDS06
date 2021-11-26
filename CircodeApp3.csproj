@@ -52,6 +52,12 @@
     <Compile Include="FrmBuscaCEP.Designer.cs">
       <DependentUpon>FrmBuscaCEP.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmJogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJogo.Designer.cs">
+      <DependentUpon>FrmJogo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmBuscaCEP.resx">
       <DependentUpon>FrmBuscaCEP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJogo.resx">
+      <DependentUpon>FrmJogo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
@@ -106,6 +115,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\temperatura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedrapapeltesoura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tesoura.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

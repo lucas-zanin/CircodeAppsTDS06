@@ -103,6 +103,26 @@ namespace CircodeApp3.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap papel {
+            get {
+                object obj = ResourceManager.GetObject("papel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pedra {
+            get {
+                object obj = ResourceManager.GetObject("pedra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pedrapapeltesoura {
             get {
                 object obj = ResourceManager.GetObject("pedrapapeltesoura", resourceCulture);
@@ -113,9 +133,29 @@ namespace CircodeApp3.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pedrapapeltesoura1 {
+            get {
+                object obj = ResourceManager.GetObject("pedrapapeltesoura1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap temperatura {
             get {
                 object obj = ResourceManager.GetObject("temperatura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tesoura {
+            get {
+                object obj = ResourceManager.GetObject("tesoura", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

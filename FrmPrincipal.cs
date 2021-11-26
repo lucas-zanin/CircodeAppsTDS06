@@ -27,5 +27,11 @@ namespace CircodeApp3
             FrmBuscaCEP busca = new FrmBuscaCEP();
             busca.Show();
         }
+
+        private void pbxPedraPapelTesoura_Click(object sender, EventArgs e)
+        {
+            FrmJogo jogo = new FrmJogo();
+            jogo.Show();
+        }
     }
 }
