@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CircodeApp3
+namespace CircodeAppsTDS06
 {
     static class Program
     {

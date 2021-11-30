@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircodeAppsTDS06", "CircodeAppsTDS06.csproj", "{15B6D1B5-0640-43F0-807B-46EEF713C237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15B6D1B5-0640-43F0-807B-46EEF713C237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B6D1B5-0640-43F0-807B-46EEF713C237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B6D1B5-0640-43F0-807B-46EEF713C237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B6D1B5-0640-43F0-807B-46EEF713C237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02D2F868-EB0C-4868-A218-B3192D682B7F}
+	EndGlobalSection
+EndGlobal

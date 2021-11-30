@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CircodeApp3
+namespace CircodeAppsTDS06
 {
     public partial class FrmPrincipal : Form
     {
@@ -28,7 +28,7 @@ namespace CircodeApp3
             busca.Show();
         }
 
-        private void pbxPedraPapelTesoura_Click(object sender, EventArgs e)
+        private void pbxJogo_Click(object sender, EventArgs e)
         {
             FrmJogo jogo = new FrmJogo();
             jogo.Show();

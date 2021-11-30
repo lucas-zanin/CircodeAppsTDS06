@@ -1,5 +1,5 @@
 ﻿
-namespace CircodeApp3
+namespace CircodeAppsTDS06
 {
     partial class FrmPrincipal
     {
@@ -29,86 +29,88 @@ namespace CircodeApp3
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblBuscaCEP = new System.Windows.Forms.Label();
-            this.pbxCEP = new System.Windows.Forms.PictureBox();
+            this.lblCEP = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
-            this.pbxPedraPapelTesoura = new System.Windows.Forms.PictureBox();
             this.lblPedraPapelTesoura = new System.Windows.Forms.Label();
+            this.pbxJogo = new System.Windows.Forms.PictureBox();
+            this.pbxCEP = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxJogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCEP)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxPedraPapelTesoura)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblBuscaCEP
+            // lblCEP
             // 
-            this.lblBuscaCEP.AutoSize = true;
-            this.lblBuscaCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBuscaCEP.Location = new System.Drawing.Point(41, 146);
-            this.lblBuscaCEP.Name = "lblBuscaCEP";
-            this.lblBuscaCEP.Size = new System.Drawing.Size(85, 16);
-            this.lblBuscaCEP.TabIndex = 0;
-            this.lblBuscaCEP.Text = "Busca CEP";
-            // 
-            // pbxCEP
-            // 
-            this.pbxCEP.Image = global::CircodeApp3.Properties.Resources.cep;
-            this.pbxCEP.Location = new System.Drawing.Point(22, 12);
-            this.pbxCEP.Name = "pbxCEP";
-            this.pbxCEP.Size = new System.Drawing.Size(128, 131);
-            this.pbxCEP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxCEP.TabIndex = 1;
-            this.pbxCEP.TabStop = false;
-            this.pbxCEP.Click += new System.EventHandler(this.pbxCEP_Click);
+            this.lblCEP.AutoSize = true;
+            this.lblCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCEP.Location = new System.Drawing.Point(47, 156);
+            this.lblCEP.Name = "lblCEP";
+            this.lblCEP.Size = new System.Drawing.Size(70, 13);
+            this.lblCEP.TabIndex = 0;
+            this.lblCEP.Text = "Busca CEP";
             // 
             // btnSair
             // 
-            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(507, 291);
+            this.btnSair.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.Location = new System.Drawing.Point(522, 288);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(102, 34);
+            this.btnSair.Size = new System.Drawing.Size(112, 42);
             this.btnSair.TabIndex = 2;
             this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
-            // 
-            // pbxPedraPapelTesoura
-            // 
-            this.pbxPedraPapelTesoura.Image = global::CircodeApp3.Properties.Resources.pedrapapeltesoura;
-            this.pbxPedraPapelTesoura.Location = new System.Drawing.Point(199, 12);
-            this.pbxPedraPapelTesoura.Name = "pbxPedraPapelTesoura";
-            this.pbxPedraPapelTesoura.Size = new System.Drawing.Size(128, 131);
-            this.pbxPedraPapelTesoura.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxPedraPapelTesoura.TabIndex = 4;
-            this.pbxPedraPapelTesoura.TabStop = false;
-            this.pbxPedraPapelTesoura.Click += new System.EventHandler(this.pbxPedraPapelTesoura_Click);
             // 
             // lblPedraPapelTesoura
             // 
             this.lblPedraPapelTesoura.AutoSize = true;
-            this.lblPedraPapelTesoura.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPedraPapelTesoura.Location = new System.Drawing.Point(173, 146);
+            this.lblPedraPapelTesoura.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPedraPapelTesoura.Location = new System.Drawing.Point(181, 156);
             this.lblPedraPapelTesoura.Name = "lblPedraPapelTesoura";
-            this.lblPedraPapelTesoura.Size = new System.Drawing.Size(175, 16);
+            this.lblPedraPapelTesoura.Size = new System.Drawing.Size(142, 13);
             this.lblPedraPapelTesoura.TabIndex = 3;
             this.lblPedraPapelTesoura.Text = "Pedra - Papel - Tesoura";
+            // 
+            // pbxJogo
+            // 
+            this.pbxJogo.Image = global::CircodeAppsTDS06.Properties.Resources.pedrapapeltesoura1;
+            this.pbxJogo.Location = new System.Drawing.Point(180, 12);
+            this.pbxJogo.Name = "pbxJogo";
+            this.pbxJogo.Size = new System.Drawing.Size(143, 141);
+            this.pbxJogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxJogo.TabIndex = 4;
+            this.pbxJogo.TabStop = false;
+            this.pbxJogo.Click += new System.EventHandler(this.pbxJogo_Click);
+            // 
+            // pbxCEP
+            // 
+            this.pbxCEP.Image = global::CircodeAppsTDS06.Properties.Resources.cep;
+            this.pbxCEP.Location = new System.Drawing.Point(12, 12);
+            this.pbxCEP.Name = "pbxCEP";
+            this.pbxCEP.Size = new System.Drawing.Size(143, 141);
+            this.pbxCEP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxCEP.TabIndex = 1;
+            this.pbxCEP.TabStop = false;
+            this.pbxCEP.Click += new System.EventHandler(this.pbxCEP_Click);
             // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(621, 337);
-            this.Controls.Add(this.pbxPedraPapelTesoura);
+            this.ClientSize = new System.Drawing.Size(646, 342);
+            this.Controls.Add(this.pbxJogo);
             this.Controls.Add(this.lblPedraPapelTesoura);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.pbxCEP);
-            this.Controls.Add(this.lblBuscaCEP);
+            this.Controls.Add(this.lblCEP);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Circo de Apps TDS06";
+            this.Text = "Circo de Apps";
+            ((System.ComponentModel.ISupportInitialize)(this.pbxJogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCEP)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxPedraPapelTesoura)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,10 +118,10 @@ namespace CircodeApp3
 
         #endregion
 
-        private System.Windows.Forms.Label lblBuscaCEP;
+        private System.Windows.Forms.Label lblCEP;
         private System.Windows.Forms.PictureBox pbxCEP;
         private System.Windows.Forms.Button btnSair;
-        private System.Windows.Forms.PictureBox pbxPedraPapelTesoura;
+        private System.Windows.Forms.PictureBox pbxJogo;
         private System.Windows.Forms.Label lblPedraPapelTesoura;
     }
 }
